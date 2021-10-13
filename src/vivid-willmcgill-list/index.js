@@ -5,7 +5,7 @@ import './components/buttons'
 
 const view = (state, {updateState}) => {
 	const names = ['Dylan', 'Lily', 'Andy'];
-	console.log(names)
+	//console.log(names)
 	return (
 		<div>
 			<p>Test</p>
@@ -24,10 +24,7 @@ createCustomElement('vivid-willmcgill-list', {
 	renderer: {type: snabbdom},
 	view,
 	properties: {
-		name:{
-			default: 'Default',
-
-		}
+		
 		
 	},
 	styles
